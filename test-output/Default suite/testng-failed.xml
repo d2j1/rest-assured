@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.restassured.CookiesDemo">
+      <class name="org.restassured.Authentications">
         <methods>
-          <include name="testCookies"/>
+          <include name="bearerTokenAuth"/>
         </methods>
-      </class> <!-- org.restassured.CookiesDemo -->
+      </class> <!-- org.restassured.Authentications -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

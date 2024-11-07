@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T12:24:12 IST" name="Default suite" finished-at="2024-11-06T12:24:14 IST" duration-ms="2534">
+  <suite started-at="2024-11-07T14:50:29 IST" name="Default suite" finished-at="2024-11-07T14:50:29 IST" duration-ms="333">
     <groups>
     </groups>
-    <test started-at="2024-11-06T12:24:12 IST" name="Default test" finished-at="2024-11-06T12:24:14 IST" duration-ms="2534">
-      <class name="org.restassured.HeadersDemo">
-        <test-method signature="testHeaders()[pri:0, instance:org.restassured.HeadersDemo@41a0aa7d]" started-at="2024-11-06T12:24:12 IST" name="testHeaders" finished-at="2024-11-06T12:24:14 IST" duration-ms="2487" status="PASS">
+    <test started-at="2024-11-07T14:50:29 IST" name="Default test" finished-at="2024-11-07T14:50:29 IST" duration-ms="333">
+      <class name="org.restassured.FakerDataGenerator">
+        <test-method signature="generateTestDummyData()[pri:0, instance:org.restassured.FakerDataGenerator@20140db9]" started-at="2024-11-07T14:50:29 IST" name="generateTestDummyData" finished-at="2024-11-07T14:50:29 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHeaders -->
-      </class> <!-- org.restassured.HeadersDemo -->
+        </test-method> <!-- generateTestDummyData -->
+      </class> <!-- org.restassured.FakerDataGenerator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
