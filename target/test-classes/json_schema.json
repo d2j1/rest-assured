@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number"
+          },
+          "availableForRent": {
+            "type": "boolean"
+          },
+          "rentPricePerDay": {
+            "type": "number"
+          },
+          "location": {
+            "type": "object",
+            "properties": {
+              "country": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "district": {
+                "type": "string"
+              },
+              "village": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "country",
+              "state",
+              "district",
+              "village"
+            ]
+          },
+          "seller": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "contact": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "contact",
+              "email"
+            ]
+          },
+          "dateListed": {
+            "type": "string"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "category",
+          "price",
+          "availableForRent",
+          "location",
+          "seller",
+          "dateListed",
+          "images"
+        ]
+      }
+    }
+  },
+  "required": [
+    "products"
+  ]
+}
