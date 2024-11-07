@@ -2,8 +2,6 @@ package org.restassured;
 
 import org.testng.annotations.Test;
 
-import com.github.fge.jsonschema.messages.JsonSchemaValidationBundle;
-
 import io.restassured.module.jsv.JsonSchemaValidator;
 
 import static io.restassured.RestAssured.*;
@@ -99,7 +97,6 @@ public class JSONSchemaValidation {
 }
 
 	 */
-	
 	
 	
 	@Test
